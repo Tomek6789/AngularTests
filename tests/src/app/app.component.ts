@@ -4,7 +4,7 @@ import { State } from 'src/app/app.reducers';
 import { VerifyEmail } from './auth/store/auth.actions';
 import { selectErrorMessage } from './auth/store/auth.selectors'
 @Component({
-  selector: 'app',
+  selector: 'app-root',
   templateUrl: './app.component.html',
 })
 export class AppComponent {
